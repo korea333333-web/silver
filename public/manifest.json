@@ -1,0 +1,21 @@
+{
+  "name": "더 프로 라운지",
+  "short_name": "프로 라운지",
+  "description": "성장을 멈추지 않는 당신을 위한 품격 있는 공간",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5dc",
+  "theme_color": "#004d40",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
