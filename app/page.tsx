@@ -70,9 +70,13 @@ export default function Home() {
             </motion.button>
           </div>
 
-          <div className="absolute right-4 top-1/2 -translate-y-1/2 w-32 h-32 bg-gray-900/50 rounded-full flex items-center justify-center border border-gray-700 shadow-inner">
+          <motion.div
+            whileTap={{ scale: 0.9 }}
+            onClick={openVoiceModal}
+            className="absolute right-4 top-1/2 -translate-y-1/2 w-32 h-32 bg-gray-900/50 rounded-full flex items-center justify-center border border-gray-700 shadow-inner cursor-pointer hover:bg-gray-800/50 transition-colors"
+          >
             <Mic className="w-12 h-12 text-blue-400" />
-          </div>
+          </motion.div>
         </motion.div>
 
         {/* Premium Course Card */}
